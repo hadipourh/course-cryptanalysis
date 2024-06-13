@@ -1,0 +1,159 @@
+\documentclass[11pt]{exam}
+\newcommand{\myname}{Ling Song, Hosein Hadipour} %Write your name in here
+\newcommand{\myhwtype}{Homework}
+\newcommand{\myhwnum}{1} %Homework set number
+\newcommand{\myclass}{Cryptanalysis 2021}
+\newcommand{\mylecture}{}
+\newcommand{\mysection}{}
+
+% Prefix for numedquestion's
+\newcommand{\questiontype}{Question}
+
+% Use this if your "written" questions are all under one section
+% For example, if the homework handout has Section 5: Written Questions
+% and all questions are 5.1, 5.2, 5.3, etc. set this to 5
+% Use for 0 no prefix. Redefine as needed per-question.
+\newcommand{\writtensection}{0}
+
+\usepackage{amsmath, amsfonts, amsthm, amssymb}  % Some math symbols
+\usepackage{enumerate}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage[all]{xy}
+\usepackage{wrapfig}
+\usepackage{fancyvrb}
+\usepackage[T1]{fontenc}
+\usepackage{listings}
+
+\usepackage{centernot}
+\usepackage{mathtools}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\DeclarePairedDelimiter{\card}{\vert}{\vert}
+
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt plus 1pt}
+\pagestyle{empty}
+
+\def\indented#1{\list{}{}\item[]}
+\let\indented=\endlist
+
+\newcounter{questionCounter}
+\newcounter{partCounter}[questionCounter]
+
+\newenvironment{namedquestion}[1][\arabic{questionCounter}]{%
+    \addtocounter{questionCounter}{1}%
+    \setcounter{partCounter}{0}%
+    \vspace{.2in}%
+        \noindent{\bf #1}%
+    \vspace{0.3em} \hrule \vspace{.1in}%
+}{}
+
+\newenvironment{numedquestion}[0]{%
+	\stepcounter{questionCounter}%
+    \vspace{.2in}%
+        \ifx\writtensection\undefined
+        \noindent{\bf \questiontype \; \arabic{questionCounter}. }%
+        \else
+          \if\writtensection0
+          \noindent{\bf \questiontype \; \arabic{questionCounter}. }%
+          \else
+          \noindent{\bf \questiontype \; \writtensection.\arabic{questionCounter} }%
+        \fi
+    \vspace{0.3em} \hrule \vspace{.1in}%
+}{}
+
+\newenvironment{alphaparts}[0]{%
+  \begin{enumerate}[label=\textbf{(\alph*)}]
+}{\end{enumerate}}
+
+\newenvironment{arabicparts}[0]{%
+  \begin{enumerate}[label=\textbf{\arabic{questionCounter}.\arabic*})]
+}{\end{enumerate}}
+
+\newenvironment{questionpart}[0]{%
+  \item
+}{}
+
+\newcommand{\answerbox}[1]{
+\begin{framed}
+\vspace{#1}
+\end{framed}}
+
+\pagestyle{head}
+
+\headrule
+\header{\textbf{\myclass\ \mylecture\mysection}}%
+{\textbf{\myname}}%
+{\textbf{\myhwtype\ \myhwnum}}
+
+\begin{document}
+\thispagestyle{plain}
+\begin{center}
+  {\Large \myclass{} \myhwtype{} \myhwnum} \\
+  \myname{}\\
+  \today
+\end{center}
+
+
+%Here you can enter answers to homework questions
+
+\begin{numedquestion}
+
+\end{numedquestion}
+
+\begin{numedquestion}
+  This question's number will be auto-incremented.
+\end{numedquestion}
+
+
+% if you do not solve some of the questions use this command to increment counter
+\setcounter{questionCounter}{4}
+\begin{numedquestion}
+  Questions 2 and 3 were not solved, this is an answer to question 5.
+\end{numedquestion}
+
+
+% if questions have subparts, use this command
+\begin{numedquestion}
+  Use the alphaparts environment to for letters.
+  \begin{alphaparts}
+    \item Part a
+    \item Part b
+    \item Part c
+  \end{alphaparts}
+\end{numedquestion}
+
+\begin{numedquestion}
+  You can still do things like nesting lists inside of these environments.
+  \begin{alphaparts}
+    \item part a
+      \begin{enumerate}[label=(\roman*)]
+        \item making point number 1
+        \item making point number 2
+        \item making point number 3
+      \end{enumerate}
+    \item part b
+    \item part c
+  \end{alphaparts}
+\end{numedquestion}
+
+\begin{numedquestion}
+  Using the \texttt{description} environment is a great way to typeset induction proofs!
+  \begin{description}
+    \item[Base Case:]
+      Here I have my base case.
+    \item[Induction Hypothesis:]
+      Assume things to make proof work. 
+    \item[Induction Step:]
+      Prove all the things.
+  \end{description}
+
+  Therefore, we have proven the claim by induction on in the \texttt{description} environment.
+\end{numedquestion}
+
+
+
+\end{document}
