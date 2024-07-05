@@ -4,7 +4,7 @@
 
 I (Hosein Hadipour) originally created this repository in 2021. 
 It was then forked and used by a Chinese teacher. 
-However, anyone else can fork and use it if they find it useful. Any comments or modifications would be greatly appreciated.
+However, anyone else who finds it useful can fork and use it. Any comments or modifications would be greatly appreciated.
 
 ## Goals and Contents
 
