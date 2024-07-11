@@ -84,7 +84,7 @@ More precisely, this course covers the following topics:
 ### Suggested Topics for Projects (choose one)
 
 * [Search for the best differential distinguishers/attacks with CP/MILP/SMT/SAT solvers](https://github.com/hadipourh/sboxanalyzer) 
-* [Search for the linear distinguishers/attacks with CP/MILP/SMT/SAT solvers](https://github.com/hadipourh/sboxanalyzer)
+* [Search for the best linear distinguishers/attacks with CP/MILP/SMT/SAT solvers](https://github.com/hadipourh/sboxanalyzer)
 * [Search for the best integral distinguishers based on monomial prediction with CP/MILP/SMT/SAT solvers](https://eprint.iacr.org/2022/729)
 * [Search for boomerang and rectangle distinguishers/attacks with CP/MILP/SMT/SAT solvers](https://eprint.iacr.org/2022/745)
 * [Search for differential-linear distinguishers/attacks with CP/MILP/SMT/SAT solvers](https://eprint.iacr.org/2024/255)
@@ -96,7 +96,7 @@ More precisely, this course covers the following topics:
 * Search for the cube attacks on stream ciphers with CP/MILP/SMT/SAT solvers
 * Search for cubes for [Keccak](https://keccak.team/)
 * Find collision attacks on reduced versions of  [SHA-2](https://en.wikipedia.org/wiki/SHA-2) using signed differential characteristics
-* ind preimage attacks on reduced versions of [SHA-3](https://en.wikipedia.org/wiki/SHA-3) using highly biased differential-linear distinguishers
+* Find preimage attacks on reduced versions of [SHA-3](https://en.wikipedia.org/wiki/SHA-3) using highly biased differential-linear distinguishers
 * Implement Wiener's attack on [RSA](https://en.wikipedia.org/wiki/RSA_(cryptosystem))
 
 ### Suggested Topics for Seminars (choose one)
@@ -152,6 +152,18 @@ Before starting to read the following books, it is recommended to have a good un
 #### An Introduction to Mathematical Cryptography
 
 ![into_to_mathematical_crypto](./PageResources/intro_to_mathematical_crypto_hoffstein.jpg)
+
+#### Cryptography: Theory and Practice
+
+![cryptography_theory_and_practice](./PageResources/cryptography_theory_and_practice_stinson.jpg)
+
+[**Website**](https://cs.uwaterloo.ca/~dstinson/CTAP4.html)
+
+#### Understanding Cryptography
+
+![understanding_cryptography](./PageResources/understanding_cryptography.jpeg)
+
+[**Website**](https://www.crypto-textbook.com/)
 
 #### A Salad of Block Ciphers
 
