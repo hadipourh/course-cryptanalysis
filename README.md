@@ -58,6 +58,7 @@ More precisely, this course covers the following topics:
   * Dixon’s Algorithm
   * Quadratic Sieve
 * Quantum algorithms
+* [Basic Lattice Cryptography](https://eprint.iacr.org/2024/1287)
 
 ## Material
 
