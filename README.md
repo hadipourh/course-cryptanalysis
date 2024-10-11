@@ -64,7 +64,8 @@ More precisely, this course covers the following topics:
 
 ### Slides
 
-* [Session 1 (Boolean Functions)](Slides/Main/BF.pdf)
+<!-- * [Session 1 (Boolean Functions)](Slides/Main/BF.pdf) -->
+* [Session 1 (Boolean Functions)](https://www.rocq.inria.fr/secret/Anne.Canteaut/poly.pdf)
 * [Session 2 (MitM and TMTO)](Slides/Main/MitM_TMTO.pptx)
 * [Session 3 (DC and LC)](Slides/Main/FEAL_DC_LC.pptx)
 * [Session 4 (AES Wide Trail Strategy)](Slides/Main/AES_wide_trail.pptx)
