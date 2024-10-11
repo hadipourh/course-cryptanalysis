@@ -138,6 +138,8 @@ Before starting to read the following books, it is recommended to have a good un
 
 ![algorithmic_cryptanalysis](./PageResources/agorithmic_cryptanalysis_joux.png)
 
+[**Website**](http://www.joux.biz/algcrypt/index.html)
+
 #### Techniques for Cryptanalysis of Block Ciphers
 
 ![techniques_for_cryptanalysis_of_block_ciphers](./PageResources/techniques_for_cryptanalysis_of_block_ciphers.jpeg)
